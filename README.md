@@ -1,22 +1,25 @@
 # ProtectEyes
 
-**说明**:定时弹窗,强制休息,保护眼睛,防猝死。
-* 之所以叫"强制休息"，是因为正常途径关不掉
-* 麻烦一点，其实也可以关掉。比如电脑重启，或者用任务管理器来关闭。
+English | [简体中文](./README.zh-CN.md)
 
-![效果图](./Image/效果图.png)
+**About**: A timed pop-up that forces you to take breaks — protect your eyes and avoid overwork.
+* It's called a "forced break" because it can't be closed through normal means.
+* With a bit of effort it can still be closed, e.g. by restarting the computer or killing it in Task Manager.
 
-## 配置
+![Screenshot](./Image/效果图.png)
 
-VS2015,win7
+## Environment
 
-## 使用
+VS2015, Windows 7
 
-Bin\设置开机自启.bat,可以将程序复制到C盘,并设置开机自启
+## Usage
 
-运行程序后,每过1小时,弹窗就会出现,开始倒计时.倒计时结束前,窗体无法关闭、拖动、拉伸
+Run `Bin\设置开机自启.bat` (Set auto-start on boot) to copy the program to the C drive and register it to start automatically at boot.
 
-## 计划
-我可能懒得去写了,欢迎大家添加
-1.将休息时间、工作时间,开放出来,用配置文件来设置(不宜在界面上设置,否则就不是强制休息了)
-2.主窗口添加动画,一些温馨小提示
+Once running, a pop-up window appears every hour and starts a countdown. Until the countdown ends, the window cannot be closed, moved, or resized.
+
+## Roadmap
+
+I may not get around to these myself — contributions are welcome:
+1. Expose the break time and work time as settings in a config file (not in the UI, otherwise it wouldn't be a forced break anymore).
+2. Add animations and some friendly tips to the main window.
