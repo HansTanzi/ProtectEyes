@@ -2,6 +2,9 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+> [!WARNING]
+> **This project is no longer maintained.** It has been superseded by [RestGuard](https://github.com/HansTanzi/RestGuard/).
+
 **About**: A timed pop-up that forces you to take breaks — protect your eyes and avoid overwork.
 * It's called a "forced break" because it can't be closed through normal means.
 * With a bit of effort it can still be closed, e.g. by restarting the computer or killing it in Task Manager.

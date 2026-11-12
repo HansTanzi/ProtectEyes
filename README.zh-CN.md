@@ -2,6 +2,9 @@
 
 [English](./README.md) | 简体中文
 
+> [!WARNING]
+> **本项目已停止更新**，已被 [RestGuard](https://github.com/HansTanzi/RestGuard/) 替代。
+
 **说明**:定时弹窗,强制休息,保护眼睛,防猝死。
 * 之所以叫"强制休息"，是因为正常途径关不掉
 * 麻烦一点，其实也可以关掉。比如电脑重启，或者用任务管理器来关闭。
